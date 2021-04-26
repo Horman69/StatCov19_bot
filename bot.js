@@ -7,7 +7,7 @@ const COUNTRIES_LIST = require('./constsnts');
 const bot = new Telegraf(process.env.BOT_TOK);
 bot.start((ctx) => ctx.reply(`Привет ${ctx.message.from.first_name}!
 Узнай статистику по Короне.
-Введи на английском название страны и получи стату.
+Введи на английском название страны и получи статуc.
 Посмотреть весь список стран можно комндой /help.
 `, Markup.keyboard([
         [" China ", " Russia "],
